@@ -1,0 +1,345 @@
+
+#sec1{
+    background-image: url(./dark-33.jpg);
+    color: white;
+    width: 100% ;
+    padding-bottom: 15%;
+}
+.home {
+width: 100%;    display: flex;
+justify-content: space-around;
+margin:  0% auto;
+background-color: black;
+}
+.home div { 
+    display: flex;
+}
+.hadding p{
+    margin-top: 15%;
+}
+.dot{
+    color: orangered;
+    font-size: 20px;
+}
+
+.homeitem p{
+    margin-right: 22px;
+    
+} 
+.hello{
+    text-align: center;
+}
+.hello hr{
+    width: 20%;
+}
+
+/* section 1 end and 2 start hear */
+
+#sec2{ 
+   width: 80%;  
+   margin-left: 10%;
+    background-color: rgb(218, 211, 211);
+    position: relative;
+    bottom: 30px;
+}
+
+.hr{
+    border-top: 4px solid red;
+  
+}
+.mainservices{ 
+    display: flex;
+ margin-left: 2%;
+  
+}
+.mainservices h5{
+    margin-left: 18%;
+    position: relative;
+    bottom: 25%;
+}
+.mainservices img{
+    margin-top: 4%;
+    width: 15%; 
+    height: 20%;
+    border-radius: 50%;
+}
+
+
+.mainservices p{
+   position: relative;
+   bottom: 20%;
+  
+}
+.services{
+    list-style: none; 
+}
+.mainservices p{
+    margin: 7%;
+}
+.services button{
+    width: 35%;
+    height: 15%;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+}
+
+.work{
+    display: flex;
+    padding: 2%;
+}
+.work img{
+    width: 20%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.btn{
+  
+    color: white;
+  background-color: black;
+
+}
+.btns{
+    display: flex;
+    padding: 2%;
+}
+.btn1{
+    color: white;
+    background-color: orangered;
+}
+.btn3{
+    margin-left: 80%;
+}
+.btn2{
+    background-color: black;
+    color: white;
+    margin-top: 3%;
+  
+}
+.span{
+    color: red;
+}
+.comp{
+    display: flex;
+}
+.comp1 h3{
+    margin-left: 23%;
+    position: relative;
+   bottom: 40%;
+}
+.comp1 p{
+    margin-left: 23%;
+    position: relative;
+   bottom: 48%;
+}
+.comp2 i{
+    text-align: center;
+    position: relative;
+   left: 10%;
+   bottom: 25%;
+
+ 
+}
+.comp2 h1{
+    margin-left: 20%;
+    position: relative;
+   bottom: 27%;
+}
+.comp3{
+    margin-left: 20%;
+}
+.hr1{
+    width: 40%;
+    margin-right: 80%;
+}
+
+.para{
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    margin: 2%;
+    width: 90%;
+}
+.u{
+    color: red;
+}
+.blog1{
+    display: flex;
+    margin-left: 2%;
+}
+.test{
+margin-left: 38%;
+font-size: 20px;
+} 
+.blog2{
+    display: flex;
+}
+.asif{
+    color: red;
+} 
+
+.blog3{
+    display: flex;
+   padding: 2%;
+}
+.friend{
+    display: flex;
+    background-color: rgb(146, 143, 143);
+}
+.friend1{
+    display: flex;
+    background-color: rgb(146, 143, 143);
+}
+#social{
+    background-color: black;
+    color: white;
+    border-top: 4px solid orangered;
+
+}
+.social1{
+    padding-top: 2%;
+    padding-bottom: 10%;
+    display: flex;
+   padding: 0% 1%;
+    font-size: 15px;
+}
+.Twitter{
+    margin-left: 2%;
+}
+.flicker{
+    margin-left: 2%;
+}
+.contact{
+    margin-left: 2%;
+}
+
+.fa.fa-search{
+    background-color: orange;
+    font-size: 20px;
+}
+.hr5{
+    background-color: rgb(233, 89, 89);
+    height: 1%;
+    
+}
+.bars{
+    padding: 2%;
+    display: flex;
+}
+.btn5{
+    padding: 1%;
+    background-color: tomato;
+    border-radius: 50%;
+    border: none;
+    margin-left: 50%;
+}
+@media (max-width :700px) {
+    .home div { 
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+        justify-content: start;
+    }
+    .hello{
+        font-size: 10px;
+    }
+    .social1{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+    }
+    .blog1{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .homeitem{
+        flex-direction: column;
+    }
+    .blog3{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .test{
+        font-size: 10px;
+        margin-right: 50px;
+    }
+    .bars{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .p{
+        font-size: 10px;
+        display: none;
+    }
+    .mainservices{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+.services h1{
+    font-size: 10px;
+    font-size: 15px;
+}
+.mainservices h5{
+    font-size: 13px;
+   position: relative;
+   bottom: 20px;
+   right: 5%;
+   font-size: 10px;
+}
+.services2{
+    position: relative;
+    bottom: 60px;
+    font-size: 10px;
+}
+.services3{
+    position: relative;
+    bottom: 140px;
+    font-size: 10px;
+}
+.mainservices P{
+   position: relative;
+   font-size: 10px;
+   bottom: 40px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.btns{
+   display: flex;
+   flex-direction: column;
+   font-size: 10px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.img{
+    width: 20%;
+}
+.contact{
+    margin-right: 10%;
+}
+.test{
+  position: relative;
+  right: 38%;
+  font-size: 10px;
+    } 
+    .blog2{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+}
+
+
+
